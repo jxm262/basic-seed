@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify src/main.js > src/bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Justin Maat <jxm262@gmail.com> (http://jmaat.me/)",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^13.0.0",
+    "chai": "^3.5.0",
     "mocha": "^2.4.5"
   }
 }
